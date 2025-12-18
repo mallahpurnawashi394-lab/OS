@@ -57,6 +57,7 @@ sudo visudo
  
 5. SSH Connection Verification Successful SSH Connection with Key
  ![ssh key](/week-4-5th.png)  
+ ![ssh key](/week-4-2nd.png)
 
 Screenshot: sudo access confirmation 
 4. Firewall Configuration (UFW) 
