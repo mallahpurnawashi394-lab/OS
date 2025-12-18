@@ -40,7 +40,8 @@ Implementation:
 # Enable and configure firewall 
 sudo ufw allow 2222/tcp 
 sudo ufw allow from 192.168.56.1 to any port 2222 
-sudo ufw --force enable 
+sudo ufw --force enable  
+
 3. User & Privilege Management (Non-root Admin User)   
 ![ssh key](/week-4-4th.png)  
 
