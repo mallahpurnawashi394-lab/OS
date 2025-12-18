@@ -86,13 +86,13 @@ access. This approach aligns with real-world server management practices.
 7. SSH-Based Administrative Compliance   
 All configurations and scripts implemented during Week 5 were executed via SSH, in 
 compliance with the administrative constraint specified in the assessment. This demonstrates 
-secure remote server administration practices. 
-8. Summary of Week 5 Outcomes 
-The following advanced security and monitoring controls were successfully implemented: 
- Mandatory access control using AppArmor 
- Automatic security patching via unattended upgrades 
- Intrusion detection using Fail2Ban 
- Security baseline verification through scripting 
- Remote performance monitoring using SSH 
+secure remote server administration practices.  
+8. Summary of Week 5 Outcomes  
+The following advanced security and monitoring controls were successfully implemented:  
+ Mandatory access control using AppArmor  
+ Automatic security patching via unattended upgrades  
+ Intrusion detection using Fail2Ban  
+ Security baseline verification through scripting  
+ Remote performance monitoring using SSH  
 These measures significantly strengthen the server’s security posture and provide a foundation 
-for performance evaluation and auditing in subsequent weeks. 
+for performance evaluation and auditing in subsequent weeks.  
