@@ -61,29 +61,29 @@ security controls implemented in Weeks 4 and 5.
 Script Purpose  
 The script verifies:  
  SSH service status  
- Firewall rules 
- AppArmor enforcement 
- Fail2Ban operation 
- Automatic update configuration 
-Script Execution 
+ Firewall rules  
+ AppArmor enforcement  
+ Fail2Ban operation  
+ Automatic update configuration  
+Script Execution  
 The script is executed directly on the server via SSH and produces a consolidated security status 
-report. 
-Justification: 
+report.  
+Justification:  
 Automating security checks ensures consistency and simplifies future audits by providing a 
-repeatable verification mechanism. 
-6. Remote Monitoring Script 
+repeatable verification mechanism.  
+6. Remote Monitoring Script  
 A remote monitoring script named monitor-server.sh was created and executed from the 
 workstation. The script connects to the Ubuntu server using SSH and collects key performance 
-metrics, including: 
- Hostname 
- System uptime 
- CPU usage 
- Memory usage 
- Disk usage 
-Justification: 
+metrics, including:  
+ Hostname  
+ System uptime  
+ CPU usage  
+ Memory usage  
+ Disk usage  
+Justification:  
 Remote monitoring allows administrators to assess system performance without direct console 
-access. This approach aligns with real-world server management practices. 
-7. SSH-Based Administrative Compliance 
+access. This approach aligns with real-world server management practices.  
+7. SSH-Based Administrative Compliance   
 All configurations and scripts implemented during Week 5 were executed via SSH, in 
 compliance with the administrative constraint specified in the assessment. This demonstrates 
 secure remote server administration practices. 
