@@ -56,7 +56,8 @@ sudo usermod -aG sudo sysadmin
 sudo visudo
  
 5. SSH Connection Verification Successful SSH Connection with Key
- ![ssh key](/week-4-5th.png)  
+ ![ssh key](/week-4-5th.png)
+  
  ![ssh key](/week-4-6th.png)
 
 Screenshot: sudo access confirmation 
@@ -73,7 +74,9 @@ sudo ufw status
 echo "3. User Privileges:" 
 sudo -lU sysadmin 
 echo "4. SSH Service Status:" 
-systemctl status ssh --no-pager | head -10 
+systemctl status ssh --no-pager | head -10  
+![ssh key](/week-4-7th.png)  
+
 Screenshot: Full firewall ruleset 
 5. Service Status Verification SSH Service Status 
 Active: active (running) since Wed 2025-12-17 11:54:38 UTC 
