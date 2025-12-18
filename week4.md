@@ -26,18 +26,24 @@ asus123 sysadmin
 4. Restarted SSH service: 
 sudo systemctl restart ssh  
 5. Firewall Configuration Firewall Status
-![ssh key](/week-4-3rd.png)
+   
+![ssh key](/week-4-3rd.png)  
+
+```
 Status: active 
 To       
 Action  From 
 2222/tcp ALLOW   192.168.56.1 
-UFW firewall configured to only allow port 2222 from the workstation IP (192.168.56.1) 
+UFW firewall configured to only allow port 2222 from the workstation IP (192.168.56.1)
+```
 Implementation: 
 # Enable and configure firewall 
 sudo ufw allow 2222/tcp 
 sudo ufw allow from 192.168.56.1 to any port 2222 
 sudo ufw --force enable 
-3. User & Privilege Management (Non-root Admin User) 
+3. User & Privilege Management (Non-root Admin User)   
+![ssh key](/week-4-4th.png)  
+
 User sysadmin may run the following commands on asus: 
 (ALL : ALL) ALL 
 Created ‘sysadmin’ user with full sudo privileges Implementation Steps: 
