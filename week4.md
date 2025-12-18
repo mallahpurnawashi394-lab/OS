@@ -80,7 +80,9 @@ systemctl status ssh --no-pager | head -10
 Screenshot: Full firewall ruleset 
 5. Service Status Verification SSH Service Status 
 Active: active (running) since Wed 2025-12-17 11:54:38 UTC 
-SSH service running and enabled to start on boot 
+SSH service running and enabled to start on boot  
+![ssh key](/week-4-7th.png)  
+
 7. Administrative Constraint Compliance  
 All configurations were performed: 
  Via SSH 
