@@ -71,7 +71,7 @@ report.
 Justification:  
 Automating security checks ensures consistency and simplifies future audits by providing a 
 repeatable verification mechanism.  
-6. Remote Monitoring Script  
+# 6. Remote Monitoring Script  
 A remote monitoring script named monitor-server.sh was created and executed from the 
 workstation. The script connects to the Ubuntu server using SSH and collects key performance 
 metrics, including:  
@@ -83,11 +83,11 @@ metrics, including:
 Justification:  
 Remote monitoring allows administrators to assess system performance without direct console 
 access. This approach aligns with real-world server management practices.  
-7. SSH-Based Administrative Compliance   
+# 7. SSH-Based Administrative Compliance   
 All configurations and scripts implemented during Week 5 were executed via SSH, in 
 compliance with the administrative constraint specified in the assessment. This demonstrates 
 secure remote server administration practices.  
-8. Summary of Week 5 Outcomes  
+# 8. Summary of Week 5 Outcomes  
 The following advanced security and monitoring controls were successfully implemented:  
  Mandatory access control using AppArmor  
  Automatic security patching via unattended upgrades  
