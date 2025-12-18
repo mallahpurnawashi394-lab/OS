@@ -10,7 +10,8 @@ ssh-keygen -t ed25519 -C "purnawashi@cmpn202"
 Screenshot evidence: SSH key generation success 
 1.2 Test key-based SSH login 
 ssh purnawashi@10.0.2.15 
-Logs in without password 
+Logs in without password
+![ssh key](/week-4-2nd.png)
 Screenshot: Successful SSH login prompt 
 3. SSH Hardening (Disable Root Login & Password Login) 
 Hardened SSH configuration with custom port, disabled root login, and user restrictions 
