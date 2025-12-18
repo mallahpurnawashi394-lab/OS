@@ -6,7 +6,7 @@ Implementation
 ssh-keygen -t ed25519 -C "purnawashi@cmpn202" 
  Press Enter for default location 
  Set passphrase (recommended)
-![ssh key](images/ssh-key-generation.png)
+![ssh key](/ssh-key-generation.png)
 Screenshot evidence: SSH key generation success 
 1.2 Test key-based SSH login 
 ssh purnawashi@10.0.2.15 
