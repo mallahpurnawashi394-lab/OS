@@ -53,8 +53,11 @@ sudo adduser sysadmin
 2. Added to sudo group: 
 sudo usermod -aG sudo sysadmin 
 3. Configured sudo privileges: 
-sudo visudo 
-4. SSH Connection Verification Successful SSH Connection with Key 
+sudo visudo
+ 
+5. SSH Connection Verification Successful SSH Connection with Key
+ ![ssh key](/week-4-5th.png)  
+
 Screenshot: sudo access confirmation 
 4. Firewall Configuration (UFW) 
 Configuration Verification Script Created verify-config.sh to validate all configurations: 
