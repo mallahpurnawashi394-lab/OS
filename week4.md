@@ -25,7 +25,8 @@ PasswordAuthentication no o Set PermitRootLogin no o Added AllowUsers
 asus123 sysadmin 
 4. Restarted SSH service: 
 sudo systemctl restart ssh  
-5. Firewall Configuration Firewall Status 
+5. Firewall Configuration Firewall Status
+![ssh key](/week-4-3rd.png)
 Status: active 
 To       
 Action  From 
