@@ -1,16 +1,17 @@
-Week 7 — Security Audit and System Evaluation 
-Phase 7: Security Audit and System Evaluation 
+# Week 7 — Security Audit and System Evaluation  
+Phase 7: Security Audit and System Evaluation  
 The goal of Week 7 was to conduct a security audit and evaluate the overall system 
-configuration. 
-Security Audit Tools Used 
- Lynis – System security audit 
- nmap – Network security scanning 
- sshd_config review – SSH hardening verification 
- systemctl – Service inventory and justification 
-Lynis Security Audit 
- Lynis was executed using: 
- sudo lynis audit system 
- Audit identified: 
+configuration.  
+# Security Audit Tools Used  
+ Lynis – System security audit  
+ nmap – Network security scanning  
+ sshd_config review – SSH hardening verification  
+ systemctl – Service inventory and justification  
+
+# Lynis Security Audit  
+ Lynis was executed using:  
+ sudo lynis audit system  
+ Audit identified:  
 o Strong SSH configuration 
 o Firewall enabled (UFW) 
 o Automatic updates active 
