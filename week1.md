@@ -1,4 +1,4 @@
-          
+![ssh key](/week-1-1.png)          
                              architecture-diagram.png  
 System Architecture Diagram Explanation
 This diagram illustrates the overall system architecture used for the CMPN202 server administration project. The environment consists of a host workstation, a virtualized Ubuntu Server, and network connectivity to the internet.
