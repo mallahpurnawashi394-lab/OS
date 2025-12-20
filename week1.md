@@ -58,6 +58,7 @@ Justification:
 •	Security Features: Includes built-in tools such as UFW firewall, AppArmor, and regular security patches.
 •	Cloud & Virtualization Friendly: Optimized for virtual environments like VirtualBox and VMware.
 Comparison Summary:
+![ssh key](/week-1-2.png)
 Distribution	Reason Not Chosen
 CentOS Stream	Rolling release, less stable for coursework
 Rocky Linux	Enterprise-focused, less beginner-friendly
