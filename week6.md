@@ -26,4 +26,14 @@ Two optimisations were implemented:
 3. Enabled automatic updates to reduce performance impact during peak usage
 Performance Metrics Table
 
-![ssh key](/week-6-2.png)
+![ssh key](/week-6-2.png)  
+
+Network Performance Analysis  
+ NAT networking provided stable outbound connectivity   
+ Latency remained low and consistent  
+ No packet loss observed during testing  
+
+Optimisation Results  
+
+![ssh key](/week-6-3.png)   
+
