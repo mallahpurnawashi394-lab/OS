@@ -51,18 +51,18 @@ sudo systemctl start apache2
 
 ![ssh key](/week-3-2.png)
  
-These expected profiles will be validated during performance testing in Week 6. 
-7. Monitoring Strategy 
+These expected profiles will be validated during performance testing in Week 6.  
+7. Monitoring Strategy   
 Monitoring will be performed using built-in Linux tools and additional monitoring utilities in 
-later weeks. 
-Monitoring Tools 
- top / htop → CPU and memory usage 
- free -h → Memory consumption 
- df -h / iostat → Disk usage and I/O 
- ip a / iperf3 output → Network activity 
- systemctl status apache2 → Web server status 
-Monitoring Approach 
- Run each application individually to isolate its resource impact 
- Observe system metrics before, during, and after workload execution 
- Capture screenshots/log outputs as evidence 
- Compare observed behaviour against expected resource profiles
+later weeks.  
+Monitoring Tools  
+ top / htop → CPU and memory usage  
+ free -h → Memory consumption  
+ df -h / iostat → Disk usage and I/O  
+ ip a / iperf3 output → Network activity  
+ systemctl status apache2 → Web server status  
+Monitoring Approach  
+ Run each application individually to isolate its resource impact  
+ Observe system metrics before, during, and after workload execution  
+ Capture screenshots/log outputs as evidence  
+ Compare observed behaviour against expected resource profiles  
