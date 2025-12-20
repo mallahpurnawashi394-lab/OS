@@ -1,5 +1,5 @@
 # Week 6 — Performance Evaluation and Analysis  
-# Phase 6: Performance Evaluation and Analysis  
+Phase 6: Performance Evaluation and Analysis  
 The objective of Week 6 was to evaluate system performance under different workloads and 
 analyse operating system behaviour. Performance testing focused on CPU, memory, disk I/O, 
 network throughput, latency, and service response times.  
@@ -35,5 +35,11 @@ Network Performance Analysis
 
 Optimisation Results  
 
-![ssh key](/week-6-3.png)   
+![ssh key](/week-6-3.png)  
+
+Conclusion (Week 6)  
+The Ubuntu Server demonstrated stable performance under both baseline and load conditions.  
+Performance bottlenecks were minimal and acceptable for a small server environment.  
+Implemented optimisations improved efficiency and reliability.  
+
 
