@@ -5,3 +5,4 @@ analyse operating system behaviour. Performance testing focused on CPU, memory, 
 network throughput, latency, and service response times.  
 Testing Methodology  
 Performance metrics were collected using standard Linux monitoring tools executed via SSH:  
+![ssh key](/week-6-1.png)
