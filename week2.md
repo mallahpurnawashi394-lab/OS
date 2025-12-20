@@ -13,6 +13,8 @@ To monitor system performance and ensure the Ubuntu Server operates reliably und
 Monitoring Methodology
 Performance monitoring will be conducted using built-in Linux tools accessed remotely via SSH.
 Tools Used
+![ssh key](/week-2-1.png)
+ 
 Tool	Purpose
 top / htop	CPU and memory usage
 free -h	RAM availability
