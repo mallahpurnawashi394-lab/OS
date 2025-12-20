@@ -8,6 +8,9 @@ virtual machine.
 1. Application Selection Matrix
 
 ![ssh key](/week-3-1.png)
+
+These applications collectively provide a balanced performance testing environment covering all 
+major system resources.
  
 3. Installation Documentation (SSH-based) 
 All applications were installed on the Ubuntu Server 24.04 LTS virtual machine using SSH from 
