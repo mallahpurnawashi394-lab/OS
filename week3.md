@@ -5,7 +5,9 @@ The objective of this phase is to select representative server applications that
 workload types (CPU, memory, disk I/O, and network). These applications will be used in later 
 weeks to evaluate system performance, monitoring, and security behaviour on the Ubuntu Server 
 virtual machine.  
- 
+1. Application Selection Matrix
+
+
  
 3. Installation Documentation (SSH-based) 
 All applications were installed on the Ubuntu Server 24.04 LTS virtual machine using SSH from 
