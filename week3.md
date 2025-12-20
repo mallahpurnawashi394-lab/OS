@@ -12,23 +12,42 @@ virtual machine.
 These applications collectively provide a balanced performance testing environment covering all 
 major system resources.
  
-3. Installation Documentation (SSH-based) 
-All applications were installed on the Ubuntu Server 24.04 LTS virtual machine using SSH from 
-the host system. 
-System Update 
-sudo apt update && sudo apt upgrade -y 
-Install stress-ng 
-sudo apt install stress-ng -y 
-Install fio 
-sudo apt install fio -y 
-Install iperf3 
-sudo apt install iperf3 -y 
-Install Apache Web Server 
-sudo apt install apache2 -y 
-Apache was enabled and started automatically: 
-sudo systemctl enable apache2 
-sudo systemctl start apache2 
-4. Expected Resource Profiles 
+3. Installation Documentation (SSH-based)
+ All applications were installed on the Ubuntu Server 24.04 LTS virtual machine using SSH from 
+the host system.
+
+ System Update
+``` 
+sudo apt update && sudo apt upgrade -y
+
+``` 
+Install stress-ng  
+```
+sudo apt install stress-ng -y
+
+``` 
+Install fio  
+```
+sudo apt install fio -y
+
+``` 
+Install iperf3  
+```
+sudo apt install iperf3 -y
+
+``` 
+Install Apache Web Server  
+```
+sudo apt install apache2 -y
+
+``` 
+Apache was enabled and started automatically:  
+```
+sudo systemctl enable apache2
+sudo systemctl start apache2
+
+```
+5. Expected Resource Profiles 
 Application CPU Usage Memory Usage Disk Usage Network Usage 
 stress-ng 
 fio 
@@ -45,7 +64,7 @@ None
 Very High 
 Low–Medium Medium 
 These expected profiles will be validated during performance testing in Week 6. 
-5. Monitoring Strategy 
+6. Monitoring Strategy 
 Monitoring will be performed using built-in Linux tools and additional monitoring utilities in 
 later weeks. 
 Monitoring Tools 
