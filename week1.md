@@ -83,7 +83,7 @@ Virtual Machine Configuration (Example):
 •	Disk: 25 GB (VDI, dynamically allocated)
 •	OS: Ubuntu Server 24.04 LTS
 
-
+![ssh key](/week-1-3.png)  
  
 6. Network Configuration
 Network Mode: NAT (Network Address Translation)
@@ -101,13 +101,13 @@ o	Package installation
 o	Ubuntu repositories
 •	SSH access from the host machine
 Security Advantage:
-NAT reduces attack surface by isolating the VM from the external network while still allowing outbound traffic.
+NAT reduces attack surface by isolating the VM from the external network while still allowing outbound traffic.  
  
 Screenshot 4 – Network Configuration  
 
 5. CLI System Evidence
 Command-Line System Specifications
-The following commands were executed on the Ubuntu Server VM to document system specifications.
+The following commands were executed on the Ubuntu Server VM to document system specifications. 
  
  
 
