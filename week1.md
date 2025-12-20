@@ -109,6 +109,7 @@ Screenshot 4 – Network Configuration
 5. CLI System Evidence
 Command-Line System Specifications
 The following commands were executed on the Ubuntu Server VM to document system specifications.
+
 ![ssh key](/week-1-5.png)   
  
  
