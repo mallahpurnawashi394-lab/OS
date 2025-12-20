@@ -101,13 +101,15 @@ o	Package installation
 o	Ubuntu repositories
 •	SSH access from the host machine
 Security Advantage:
-NAT reduces attack surface by isolating the VM from the external network while still allowing outbound traffic.  
+NAT reduces attack surface by isolating the VM from the external network while still allowing outbound traffic.
+![ssh key](/week-1-4.png)    
  
 Screenshot 4 – Network Configuration  
 
 5. CLI System Evidence
 Command-Line System Specifications
-The following commands were executed on the Ubuntu Server VM to document system specifications. 
+The following commands were executed on the Ubuntu Server VM to document system specifications.
+![ssh key](/week-1-5.png)   
  
  
 
