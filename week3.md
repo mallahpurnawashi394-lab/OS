@@ -47,24 +47,12 @@ sudo systemctl enable apache2
 sudo systemctl start apache2
 
 ```
-5. Expected Resource Profiles 
-Application CPU Usage Memory Usage Disk Usage Network Usage 
-stress-ng 
-fio 
-iperf3 
-Very High High 
-Medium Low 
-Medium Low 
-Apache2 Medium Medium 
-Low 
-Very High 
-None 
-None 
-None 
-Very High 
-Low–Medium Medium 
+5. Expected Resource Profiles
+
+![ssh key](/week-3-2.png)
+ 
 These expected profiles will be validated during performance testing in Week 6. 
-6. Monitoring Strategy 
+7. Monitoring Strategy 
 Monitoring will be performed using built-in Linux tools and additional monitoring utilities in 
 later weeks. 
 Monitoring Tools 
